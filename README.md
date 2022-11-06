@@ -28,7 +28,6 @@ Finalizado
 ## 🎨 Inspiração:
 
 Youtube: https://www.youtube.com/c/SameerSaini <br>
-Github: https://github.com/birobirobiro
 
 ---
 
