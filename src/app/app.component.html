@@ -4,11 +4,11 @@
   </form>
 </div>
 
-<div class="container" *ngIf="weatherData">
+<!-- PARTE DINÂMICA 
+  <div class="container" *ngIf="weatherData">
   <div class="upper-data">
-    <img src="../assets/img/sun.jpg" *ngIf=" weatherData.main.temp_min > 15">
-    <!-- <img src="../assets/img/rain.jpg" *ngIf=" weatherData.main.temp_min <= 15"> -->
-    <img src="../assets/img/snow.jpg" *ngIf=" weatherData.main.temp_min <= 3">
+    <img src="../assets/img/sun.jpg" *ngIf=" weatherData.main.temp_min > 20">
+    <img src="../assets/img/snow.jpg" *ngIf=" weatherData.main.temp_min <= 13">
 
     <div class="weather-data">
 
@@ -68,9 +68,10 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-<!-- <div class="container">
+<!--PARTE ESTÁTICA-->
+ <div class="container">
   <div class="upper-data">
     <img src="../assets/img/sun.jpg" *ngIf="14 > 15">
     <img src="../assets/img/sun.jpg" *ngIf="14 <= 15">
@@ -78,7 +79,7 @@
     <div class="weather-data">
 
 
-      <div class="temperature">{{14.40 | number: '1.0-0'}}°C</div>
+      <div class="temperature">{{15.40 | number: '1.0-0'}}°C</div>
       <div class="location">Wellingnton</div>
     </div>
   </div>
@@ -105,7 +106,7 @@
           <img src="../assets/img/sun.svg" alt="">
           <div class="info-block-value">
             <span>Max</span>
-            <p>10°C</p>
+            <p>33°C</p>
           </div>
         </div>
 
@@ -116,7 +117,7 @@
           <img src="../assets/img/sun-cloud-rain.svg" alt="">
           <div class="info-block-value">
             <span>Humidity</span>
-            <p>10°C</p>
+            <p>80%</p>
           </div>
         </div>
 
@@ -127,11 +128,11 @@
           <img src="../assets/img/wind.svg" alt="">
           <div class="info-block-value">
             <span>Wind</span>
-            <p>10°C</p>
+            <p>6 km/s</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div> 
 <router-outlet></router-outlet>

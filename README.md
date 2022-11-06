@@ -1,27 +1,35 @@
-# WeatherApplication
+<h1 align="center">
+  Weather App
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+<p align="center">
+  <img alt="" src=".github/preview.png" width="100%">
+</p>
 
-## Development server
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias
 
-## Code scaffolding
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- HTML
+- [SCSS](https://sass-lang.com/)
+- [Angular](https://angular.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [API](https://rapidapi.com/hub)
 
-## Build
+## 🚧 Projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Finalizado
 
-## Running unit tests
+## 🎨 Inspiração:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Youtube: https://www.youtube.com/c/SameerSaini <br>
+Github: https://github.com/birobirobiro
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito com ♥ by Matheusvgdr
